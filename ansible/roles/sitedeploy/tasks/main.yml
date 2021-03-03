@@ -1,0 +1,6 @@
+- name: Clone desired repo
+  git: 
+    repo: https://github.com/recoders/php-magazine
+    dest: /var/www/{{ http_host }}
+    version: HEAD
+  tags: deploy

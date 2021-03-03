@@ -1,0 +1,14 @@
+plugin: aws_ec2
+regions:
+  - us-east-1
+keyed_groups:
+  - prefix: tag
+    key: dev
+
+filters:
+  tag:Env: Dev
+
+hostnames:
+  - dns-name
+  - public-ip-address
+  - private-ip-address

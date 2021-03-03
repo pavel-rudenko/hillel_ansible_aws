@@ -1,0 +1,7 @@
+---
+app_user: "ubuntu"
+http_host: "18.234.103.168"
+http_conf: "18.234.103.168.conf"
+http_port: "80"
+disable_default: true
+mysql_root_password: "passw0rd3450"
